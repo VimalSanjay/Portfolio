@@ -15,7 +15,7 @@
     --bg-color: #081b29;
     --second-bg-color: #112e42;
     --text-color: #ededed;
-    --main-color: #00ccff;
+    --main-color: #fffb00;
 }
 
 html {
@@ -30,21 +30,21 @@ body {
 }
 
 .header {
-    position:fixed; 
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: transparent;
+    background: transparent; /* Initial transparent background */
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    transition: 0.3s ;
+    transition: background 0.3s; 
 }
 
-.header .sticky {
-    background: yellowgreen;
+.header.sticky {
+    background: var(--bg-color); 
 }
 
 .logo {
@@ -81,7 +81,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('WhatsApp Image 2024-08-16 at 12.03.36_eaa4f77e.jpg') no-repeat center;
+    background: url('homepic.jpg') no-repeat center;
     background-size: cover;
     position: relative;
 }
