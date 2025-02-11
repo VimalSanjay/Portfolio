@@ -29,9 +29,29 @@
                 <h3>Software Engineer & Graphic Designer</h3>
                 <p>I am a Software Engineer with expertise in graphic design, web development, animation, and data visualization. I create visually compelling and user-friendly digital experiences, leveraging modern technologies to deliver high-quality projects that enhance user engagement.</p>
                 <div class="btn-box">
-                    <a href="https://drive.google.com/file/d/19Wn5fzp7Y74XWbKc7m1cU23q7BslB1RY/view?usp=drivesdk" download class="btn">Download CV
-                    </a>
-                    <a href="https://wa.me/916382671155" class="btn">Let's Talk</a>
+                    <button onclick="window.location.href='https://drive.google.com/file/d/19Wn5fzp7Y74XWbKc7m1cU23q7BslB1RY/view?usp=drivesdk'">
+                        Download CV
+                        <div id="clip">
+                            <div id="leftTop" class="corner"></div>
+                            <div id="rightBottom" class="corner"></div>
+                            <div id="rightTop" class="corner"></div>
+                            <div id="leftBottom" class="corner"></div>
+                        </div>
+                        <span id="rightArrow" class="arrow"></span>
+                        <span id="leftArrow" class="arrow"></span>
+                    </button>
+                
+                    <button onclick="window.location.href='https://wa.me/916382671155'">
+                        Let's Talk
+                        <div id="clip">
+                            <div id="leftTop" class="corner"></div>
+                            <div id="rightBottom" class="corner"></div>
+                            <div id="rightTop" class="corner"></div>
+                            <div id="leftBottom" class="corner"></div>
+                        </div>
+                        <span id="rightArrow" class="arrow"></span>
+                        <span id="leftArrow" class="arrow"></span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -97,6 +117,15 @@
                             <p>During my one-month internship at Oasis Infobyte, I gained hands-on experience in software development and data analysis. I collaborated on projects using agile methodologies, enhancing my teamwork and problem-solving skills. Mentorship from industry professionals deepened my understanding of real-world tech applications. This experience strengthened my technical knowledge and ignited my passion for continuous learning in technology.</p>
                         </div>
                     </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>Jan 2025 - Present </div>
+                            <h3>Graphic Designer Intern</h3>
+                            <p>As a Graphic Design Intern at Simpery, I have been actively involved in creating visually engaging designs, including logos, social media creatives, and marketing materials. Collaborating closely with teams, I have contributed to developing user-friendly and aesthetically appealing designs that align with brand identity. Utilizing industry-standard tools, I have enhanced my skills in UI/UX principles and graphic design trends, ensuring high-quality and impactful visual storytelling. This internship has provided me with valuable hands-on experience, strengthening my ability to craft compelling designs that resonate with target audiences.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -168,71 +197,72 @@
     <section class="projects" id="projects">
         <h2 class="heading">My <span>Projects</span></h2>
         <div class="portfolio">
-
             <div class="project">
                 <img src="sb.png" alt="Logo Design 2">
-                <div class="description">
-                    <h2>LOGO</h2>
-                    <p>I done a Pictorial logo for my client which denotes the bridal mackup</p>
+                <div class="project__content">
+                    <p class="project__title">LOGO</p>
+                    <p class="project__description">I done a Pictorial logo for my client which denotes the bridal makeup.</p>
                 </div>
             </div>
-
+    
             <div class="project">
                 <img src="RDF.png" alt="Logo Design 3">
-                <div class="description">
-                    <h2>LOGO</h2>
-                    <p>Client is a Cinima Director & Producer and need for brand logo and intro video , I done a Rich metalic Brand logo with for my client.Intro video Link https://www.instagram.com/share/reel/BANUWbhEF8 </p>
+                <div class="project__content">
+                    <p class="project__title">LOGO</p>
+                    <p class="project__description">Client is a Cinema Director & Producer and needed a brand logo and intro video. I created a rich metallic brand logo for my client. Intro video link: <a href="https://www.instagram.com/share/reel/BANUWbhEF8">Watch Here</a>.</p>
                 </div>
             </div>
-
-        
+    
             <div class="project">
                 <img src="carwash1 (2).png" alt="Logo Design 4">
-                <div class="description">
-                    <h2>LOGO</h2>
-                    <p>I done a Pictorial Logo for my client who order logo for their car washing center.</p>
+                <div class="project__content">
+                    <p class="project__title">LOGO</p>
+                    <p class="project__description">I created a Pictorial Logo for my client who ordered a logo for their car washing center.</p>
                 </div>
             </div>
-
+    
             <div class="project">
-                <img src="sabafinal.png" alt="Logo Design ">
-                <div class="description">
-                    <h2>LOGO</h2>
-                    <p>I did a minimalist Logo for the client, Which is able to use in his multiple business  </p>
+                <img src="sabafinal.png" alt="Logo Design">
+                <div class="project__content">
+                    <p class="project__title">LOGO</p>
+                    <p class="project__description">I created a minimalist Logo for the client, which can be used in their multiple businesses.</p>
                 </div>
             </div>
-
+    
             <div class="project">
                 <img src="shaansign.png" alt="Logo Design 5">
-                <div class="description">
-                    <h2>Signboard with Logo</h2>
-                    <p>Client wants signboard with logo for their Garments business . I done an abstract logo for the client which represent the garment buisness with shirt-colar and made sign board with that.</p>
+                <div class="project__content">
+                    <p class="project__title">Signboard with Logo</p>
+                    <p class="project__description">The client wanted a signboard with a logo for their garments business. I created an abstract logo representing the garment business with a shirt collar and designed a signboard with it.</p>
                 </div>
             </div>
+    
             <div class="project">
                 <img src="MST1 (2).png" alt="Logo Design 6">
-                <div class="description">
-                    <h2>LOGO</h2>
-                    <p>Client need a modern logo for their travel service , I created this noderb logo with their own travel bus .</p>
+                <div class="project__content">
+                    <p class="project__title">LOGO</p>
+                    <p class="project__description">The client needed a modern logo for their travel service. I created this modern logo featuring their own travel bus.</p>
                 </div>
             </div>
-
+    
             <div class="project">
-                <img src="pos1.jpg" alt="Poster design">
-                <div class="description">
-                    <h2>POSTER</h2>
-                    <p>This is sample of poster creation, I did this for my college event ( Athletics ) </p>
+                <img src="pos1.jpg" alt="Poster Design">
+                <div class="project__content">
+                    <p class="project__title">POSTER</p>
+                    <p class="project__description">This is a sample of poster creation. I designed this for my college event (Athletics).</p>
                 </div>
             </div>
+    
             <div class="project">
-                <img src="pos2.jpg" alt="Poster design">
-                <div class="description">
-                    <h2>POSTER</h2>
-                    <p>This is sample of poster creation, I did this for my college event ( Football ) </p>
+                <img src="pos2.jpg" alt="Poster Design">
+                <div class="project__content">
+                    <p class="project__title">POSTER</p>
+                    <p class="project__description">This is a sample of poster creation. I designed this for my college event (Football).</p>
                 </div>
             </div>
-
+            
         </div>
+        
     </section>
 
 <br>
